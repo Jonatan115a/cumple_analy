@@ -1,0 +1,78 @@
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+p {
+	margin: 0 auto; 
+	position: absolute;
+	font: 16px Verdana;
+	color: #d11d1d;
+	height: 25px;
+	width: 100%; 
+	top: calc(96% - 12.5px); 
+	left: 0; 
+	right: 0;
+	text-align: center; 
+	text-shadow: 0 0 2px white;
+}
+p a {
+	text-decoration: none;
+	color: #e46e6e;
+}
+span {
+	font-size: 20px;
+}
+p > a:first-of-type {
+	font-size: 300px;
+
+}
+body {
+	overflow: hidden;
+}
+#musicButton {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+	background-color: #c504bb;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+  }
+  
+  #musicButton:hover {
+	background-color: #d81b60;
+  }
+  
+  #dedicationButton {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translateX(-50%); 
+	padding: 15px;
+	background-color: #6e32a6;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+  }
+  
+  #dedicationButton:hover {
+	background-color: #4c0752;
+  }
+
+  #dedicationMessage {
+	position: absolute;
+	top: 20%;  /* Cambia este valor para mover la dedicatoria hacia arriba o abajo */
+	left: 50%;  /* Cambia este valor para mover la dedicatoria hacia la izquierda o derecha */
+	transform: translateX(-50%); /* Esto centra la dedicatoria */
+	font-size: 18px;
+	color: #f4a261;  /* Cambia el color de la dedicatoria */
+	text-align: center;
+	display: none;
+
+
