@@ -9,7 +9,7 @@ var w = c.width = window.innerWidth,
 		
 		opts = {
 			strings: [ '!Felíz', 'Cumpleaños', ' Analy ','Que sigas cumpliendo más¡' ],
-			charSize: 30,
+			charSize: 40,
 			charSpacing: 30,
 			lineHeight: 60,
 			
